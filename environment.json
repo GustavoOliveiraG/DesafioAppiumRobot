@@ -1,0 +1,31 @@
+{
+  "__exemploEnvironment": "Android, Android_Virtual",
+  "environment": "Android_Virtual",
+
+  "Android":
+  {
+    "appium_automationName": "UiAutomator2",
+    "platformName": "Android",
+    "appium_deviceName": "Emulator",
+    "appium_app": "C:\\QANinja\\Appium\\apk\\twp.apk",
+    "appium_udid": "2c5049cc"
+  },
+
+  "Android_Virtual":
+  {
+    "appium_automationName": "UiAutomator2",
+    "platformName": "Android",
+    "appium_deviceName": "Emulator",
+    "appium_app": "C:\\MyProjects\\Mobile\\Robot_Python\\app\\android\\app-debug.apk",
+    "appium_udid": "emulator-5554"
+  },
+
+  "iOS_Virtual":
+  {
+    "appium_automationName": "XCUITest",
+    "platformName": "iOS",
+    "appium_deviceName": "Emulator",
+    "appium_app": "/Users/macqa/Documents/QA/GIT/Robot_Appium/app/calculator.app",
+    "appium_udid": "FBD69CE5-FE29-4F4C-8015-6E66EE72784A"
+  }
+}
