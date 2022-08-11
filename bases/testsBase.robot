@@ -6,11 +6,12 @@ Resource        helpersBase.robot
 
 *** Keywords ***
 Open Session
-    Open to App
-    Start Screen Recording
+    #Open to App
+    Open to App Browserstack
+    #Start Screen Recording
 
 
 Close Session
-    Capture Page Screenshot
-    Stop Screen Recording
+    #Capture Page Screenshot
+    #Stop Screen Recording
     Close Application
