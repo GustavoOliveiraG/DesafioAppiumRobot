@@ -12,3 +12,6 @@ Select an Option in the Menu
     Wait Until Element Is Visible       id=com.amazonaws.devicefarm.android.referenceapp:id/drawerHeader
     Click Element                       xpath=${MENU}
     Wait Until Page Contains            ${TEXT}
+
+Vertical Scroll
+    Swipe By Percent                    85.00   49.00   15.00   49.00

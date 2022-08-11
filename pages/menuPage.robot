@@ -19,3 +19,17 @@ Click on Menu Input Controls
     ${NAME}=        Set Variable        Input Controls
 
     Select an Option in the Menu        ${XPATH}        ${NAME}
+
+
+Click on Menu Nested Views
+    ${XPATH}=       Set Variable       (//android.widget.TextView[@content-desc="Row Category Name"])[5]
+    ${NAME}=        Set Variable        Nested Views
+
+    Select an Option in the Menu        ${XPATH}        ${NAME}
+
+
+Click on Menu Alerts and Dialogs
+    ${XPATH}=       Set Variable       (//android.widget.TextView[@content-desc="Row Category Name"])[7]
+    ${NAME}=        Set Variable        Alerts and Dialogs
+
+    Select an Option in the Menu        ${XPATH}        ${NAME}
