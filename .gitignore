@@ -1,0 +1,4 @@
+### GitIgnore ###
+.idea
+.git
+/reports
