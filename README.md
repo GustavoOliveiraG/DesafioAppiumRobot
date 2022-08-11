@@ -119,7 +119,7 @@ Desafio Automação - APIs REST
 
 https://appium.io/docs/en/writing-running-appium/caps/
 
-![image-20220810091307126](\img\image-20220810091307126.png)
+![image-20220810091307126](https://gitlab.com/-/ide/project/d3424/desafioappiumrobot/tree/main/-/img/image-20220810091307126.png/)
 
 
 
