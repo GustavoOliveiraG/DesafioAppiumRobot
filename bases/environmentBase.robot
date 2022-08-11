@@ -19,3 +19,23 @@ Open to App
     ...     deviceName=${appium_deviceName}
     ...     app=${appium_app}
     ...     udid=${appium_udid}
+
+
+Open to App Browserstack
+    ${usuario}=                 environmentConfigBrowserstack        0
+    ${password}=                environmentConfigBrowserstack        1
+    ${device}=                  environmentConfigBrowserstack        2
+    ${os_version}=              environmentConfigBrowserstack        3
+    ${app}=                     environmentConfigBrowserstack        4
+    ${project}=                 environmentConfigBrowserstack        5
+    ${build}=                   environmentConfigBrowserstack        6
+    ${name}=                    environmentConfigBrowserstack        7
+
+    Set Appium Timeout  5
+    Open Application    http://${usuario}:${password}@hub-cloud.browserstack.com/wd/hub
+    ...     device= ${device}
+    ...     os_version= ${os_version}
+    ...     app= ${app}
+    ...     project= ${project}
+    ...     build= ${build}
+    ...     name= ${name}

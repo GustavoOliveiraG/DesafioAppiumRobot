@@ -1,13 +1,13 @@
 {
-  "__exemploEnvironment": "Android, Android_Virtual",
-  "environment": "Android_Virtual",
+  "__exemploEnvironment": "Android, Android_Virtual, iOS, iOS_Virtual, Browserstack",
+  "environment": "Browserstack",
 
   "Android":
   {
     "appium_automationName": "UiAutomator2",
     "platformName": "Android",
     "appium_deviceName": "Emulator",
-    "appium_app": "C:\\QANinja\\Appium\\apk\\twp.apk",
+    "appium_app": "C:/MyProjects/Mobile/Robot_Python/app/android/app-debug.apk",
     "appium_udid": "2c5049cc"
   },
 
@@ -16,8 +16,17 @@
     "appium_automationName": "UiAutomator2",
     "platformName": "Android",
     "appium_deviceName": "Emulator",
-    "appium_app": "C:\\MyProjects\\Mobile\\Robot_Python\\app\\android\\app-debug.apk",
+    "appium_app": "C:/MyProjects/Mobile/Robot_Python/app/android/app-debug.apk",
     "appium_udid": "emulator-5554"
+  },
+
+  "iOS":
+  {
+    "appium_automationName": "XCUITest",
+    "platformName": "iOS",
+    "appium_deviceName": "Emulator",
+    "appium_app": "/Users/macqa/Documents/QA/GIT/Robot_Appium/app/calculator.app",
+    "appium_udid": "FBD69CE5"
   },
 
   "iOS_Virtual":
@@ -27,5 +36,17 @@
     "appium_deviceName": "Emulator",
     "appium_app": "/Users/macqa/Documents/QA/GIT/Robot_Appium/app/calculator.app",
     "appium_udid": "FBD69CE5-FE29-4F4C-8015-6E66EE72784A"
+  },
+
+  "Browserstack":
+  {
+    "usuario": "gustavogontijo_yWV0sw",
+    "password": "KucwxNC5sAFSXJ1xsqej",
+    "device": "Google Pixel 3",
+    "os_version": "9.0",
+    "app": "bs://0eb83e1641f0f16d51929a129f18904c152d993d",
+    "project": "First Python project",
+    "build": "browserstack-build-1",
+    "name": "Appium_Robot_Android"
   }
 }
