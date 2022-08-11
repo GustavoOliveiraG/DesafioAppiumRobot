@@ -119,7 +119,7 @@ Desafio Automação - APIs REST
 
 https://appium.io/docs/en/writing-running-appium/caps/
 
-![image-20220810091307126](C:\Users\gustavoGontijo\AppData\Roaming\Typora\typora-user-images\image-20220810091307126.png)
+![image-20220810091307126](.\img\image-20220810091307126.png)
 
 
 
@@ -151,7 +151,7 @@ https://appium.io/docs/en/writing-running-appium/caps/
 
 
 
-![image-20220811100030712](C:\Users\gustavoGontijo\AppData\Roaming\Typora\typora-user-images\image-20220811100030712.png)
+![image-20220811100030712](.\img\image-20220811100030712.png)
 
 
 
@@ -198,5 +198,5 @@ O robot possui um report nativo que inclui os vídeos e os prints tirados ao lon
 
 *Foi criado as configuração de acesso para o  **BrowserStack**, os mesmos apontados no  **environment.json**, criado uma função de apontamento, para chamada local ou via device farm. Todas as configurações necessárias foram baseadas no link de ajuda do **BrowserStack***
 
-​	![image-20220810171202542](C:\Users\gustavoGontijo\AppData\Roaming\Typora\typora-user-images\image-20220810171202542.png)
+​	![image-20220810171202542](.\img\image-20220810171202542.png)
 
